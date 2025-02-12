@@ -1,18 +1,28 @@
+
+using System.Diagnostics.Contracts;
 using System.Dynamic;
 
 namespace Tarefas
 {
-    class Tarefas
+    class Tarefa
     {
-        public int id (get; private  set;);
-        public static void Tarefa()
+
+        public int Id { get; set; }
+        public string Descricao { get; set; }
+        public bool Concluido { get; set; }
+
+        public Tarefa (int id, string descricao)
         {
-            Console.WriteLine("");
+            Id = id;
+            Descricao = descricao;
+            Concluido = false;
         }
 
-        public static void Exibirtarefa()
+        public void ExibirTarefa()
         {
-
+            Console.WriteLine($"[{(Concluido ? "X" : " ")}] ID: {Id} - {Descricao}");
         }
+
+
     }
 }

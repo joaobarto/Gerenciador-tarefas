@@ -23,6 +23,15 @@ switch (resposta)
     case 1:
     GerenciarTarefa.AdicionarTarefa();
     break;
+    case 2:
+    GerenciarTarefa.ListarTarefas();
+    break;
+    case 3:
+    GerenciarTarefa.ConcluirTarefa();
+    break;
+    case 1:
+    GerenciarTarefa.RemoverTarefa();
+    break;
 
 
 }
