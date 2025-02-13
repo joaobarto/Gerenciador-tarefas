@@ -4,8 +4,6 @@ using GerenciarTarefa;
 
 var Gerenciador = new Gerenciador ();
 
-Console.Clear();
-
 Formatacao.ImprimirCabecalho();
 
 Console.WriteLine("1 - Adicionar Tarefa");
@@ -45,9 +43,19 @@ Console.Clear();
     break;
     
     case 3:
-    
+        Console.Clear();
+        Console.Write("Digite o ID da tarefa concluída: ");
+        Gerenciador.ConcluirTarefa();
+    break;
 
-    
+    case 4:
+        Console.Clear();
+        Console.Write("Digite o ID da tarefa que deseja remover");
+    break;
+
+    case 0:
+        Console.WriteLine("Saindo....");
+    break;   
 }
 
    
