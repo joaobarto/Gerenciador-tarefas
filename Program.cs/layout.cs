@@ -10,9 +10,9 @@ namespace Layout
         }
        public static void ImprimirCabecalho()
 {
-    Console.WriteLine("====================================");
-    Console.WriteLine("=      GERENCIADOR DE TAREFAS      =");
-    Console.WriteLine("====================================");
+    Console.WriteLine("╔════════════════════════════════════╗");
+    Console.WriteLine("║       GERENCIADOR DE TAREFAS       ║");
+    Console.WriteLine("╚════════════════════════════════════╝");
 }
 
         

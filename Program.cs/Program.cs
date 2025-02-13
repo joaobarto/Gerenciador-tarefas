@@ -2,7 +2,10 @@
 using Tarefas;
 using GerenciarTarefa;
 
+var Gerenciador = new Gerenciador ();
+
 Console.Clear();
+
 Formatacao.ImprimirCabecalho();
 
 Console.WriteLine("1 - Adicionar Tarefa");
@@ -10,6 +13,7 @@ Console.WriteLine("2 - Listar Tarefas  ");
 Console.WriteLine("3 - Concluir Tarefa");
 Console.WriteLine("4 - Remover Tarefa ");
 Console.WriteLine("0 - Sair");
+Console.WriteLine("Escolha uma opção:");
 
 if (!int.TryParse(Console.ReadLine(), out int resposta))
 {
@@ -18,23 +22,34 @@ if (!int.TryParse(Console.ReadLine(), out int resposta))
 
 Console.Clear();
 
-switch (resposta) 
+        switch (resposta) 
 {
     case 1:
-    GerenciarTarefa.AdicionarTarefa();
-    break;
+        Console.Clear();
+        Console.Write("Escreva a descrição da tarefa que deseja realizar: ");
+        string descricao = Console.ReadLine()?.Trim() ?? ""; 
+       
+        if (!string.IsNullOrEmpty(descricao)) 
+        {
+            Gerenciador.AdicionarTarefa(descricao);
+        }
+        else
+        {
+            Console.WriteLine("A descrição da tarefa não pode ser vazia!");
+        }
+        break;
+
     case 2:
-    GerenciarTarefa.ListarTarefas();
+        Console.Clear();
+        Gerenciador.ListarTarefas();
     break;
-    case 3:
-    GerenciarTarefa.ConcluirTarefa();
-    break;
-    case 1:
-    GerenciarTarefa.RemoverTarefa();
-    break;
-
-
-}
     
+    case 3:
+    
+
+    
+}
+
+   
 
     

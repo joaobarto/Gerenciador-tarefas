@@ -4,7 +4,7 @@ using System.Dynamic;
 
 namespace Tarefas
 {
-    class Tarefa
+    class Tarefa    
     {
 
         public int Id { get; set; }
