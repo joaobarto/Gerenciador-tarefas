@@ -1,6 +1,7 @@
 
 using System.Diagnostics.Contracts;
 using System.Dynamic;
+using Layout;
 
 namespace Tarefas
 {
@@ -20,7 +21,7 @@ namespace Tarefas
 
         public void ExibirTarefa()
         {
-            Console.WriteLine($"[{(Concluido ? "X" : " ")}] ID: {Id} - {Descricao}");
+            Formatacao.Cor($"[{(Concluido ? "X" : " ")}] ID: {Id} - {Descricao}",ConsoleColor.Yellow);
         }
 
 

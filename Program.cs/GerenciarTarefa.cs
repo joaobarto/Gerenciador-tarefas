@@ -8,47 +8,73 @@ namespace GerenciarTarefa
     {
         private List<Tarefa> ListaDeTarefas = new List<Tarefa>();
         private int contadorId = 1;
-        private int id;
+
+        
 
         public void AdicionarTarefa(string descricao)
         {
             ListaDeTarefas.Add(new Tarefa(contadorId, descricao));
             contadorId++;
-
         }
+
         public void ListarTarefas()
         {
-            foreach (var Tarefa in ListaDeTarefas)
+            if (ListaDeTarefas.Count == 0)
             {
-                Tarefa.ExibirTarefa();
+                Formatacao.Cor("Não há tarefas cadastradas.", ConsoleColor.Yellow);
+                return;
+            }
+
+            foreach (var tarefa in ListaDeTarefas)
+            {
+               tarefa.ExibirTarefa();
             }
         }
+
         public void ConcluirTarefa()
         {
-            foreach (var Tarefa in ListaDeTarefas)
-            {
-                if (Tarefa.Id == id)
+            
+            if (int.TryParse(Console.ReadLine(), out int id))
+            
+            { Console.Clear();
+                var tarefa = ListaDeTarefas.FirstOrDefault(t => t.Id == id);
+                if (tarefa != null)
                 {
-                    Tarefa.Concluido = true;
-
+                    tarefa.Concluido = true;
+                    Formatacao.Cor("Tarefa concluída!", ConsoleColor.Green);
                 }
-            }
-            Console.WriteLine("Tarefa não encontrada!\n");
-        }
-        public void RemoverTarefas()
-        {
-            int removidas = ListaDeTarefas.RemoveAll(t => t.Id == id);
+                else
+                {
+                    Formatacao.Cor("Tarefa não encontrada!", ConsoleColor.Red);
+                }
 
-            if (removidas > 0)
-            {
-                Formatacao.Cor("Tarefa removida!", ConsoleColor.Green);
             }
             else
             {
-                Formatacao.Cor("Nenhuma tarefa encontrada com esse ID.", ConsoleColor.Yellow);
+                Formatacao.Cor("ID inválido.", ConsoleColor.Red);
             }
-
         }
 
+        public void RemoverTarefas()
+        {
+          
+            if (int.TryParse(Console.ReadLine(), out int id))
+            {Console.Clear();
+                int removidas = ListaDeTarefas.RemoveAll(t => t.Id == id);
+
+                if (removidas > 0)
+                {
+                    Formatacao.Cor("Tarefa removida com sucesso!", ConsoleColor.Red);
+                }
+                else
+                {
+                    Formatacao.Cor("Nenhuma tarefa encontrada com esse ID.", ConsoleColor.Yellow);
+                }
+            }
+            else
+            {
+                Formatacao.Cor("ID inválido.", ConsoleColor.Red);
+            }
+        }
     }
 }
