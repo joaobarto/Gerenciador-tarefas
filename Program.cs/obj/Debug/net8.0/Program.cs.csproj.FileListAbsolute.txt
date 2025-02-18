@@ -13,3 +13,18 @@ C:\Users\Aluno\Documents\Joao v\Gerenciador-tarefas\Program.cs\obj\Debug\net8.0\
 C:\Users\Aluno\Documents\Joao v\Gerenciador-tarefas\Program.cs\obj\Debug\net8.0\Program.cs.pdb
 C:\Users\Aluno\Documents\Joao v\Gerenciador-tarefas\Program.cs\obj\Debug\net8.0\Program.cs.genruntimeconfig.cache
 C:\Users\Aluno\Documents\Joao v\Gerenciador-tarefas\Program.cs\obj\Debug\net8.0\ref\Program.cs.dll
+C:\Users\joaob\Documents\jv\Gerenciador-tarefas\Program.cs\bin\Debug\net8.0\Program.cs.exe
+C:\Users\joaob\Documents\jv\Gerenciador-tarefas\Program.cs\bin\Debug\net8.0\Program.cs.deps.json
+C:\Users\joaob\Documents\jv\Gerenciador-tarefas\Program.cs\bin\Debug\net8.0\Program.cs.runtimeconfig.json
+C:\Users\joaob\Documents\jv\Gerenciador-tarefas\Program.cs\bin\Debug\net8.0\Program.cs.dll
+C:\Users\joaob\Documents\jv\Gerenciador-tarefas\Program.cs\bin\Debug\net8.0\Program.cs.pdb
+C:\Users\joaob\Documents\jv\Gerenciador-tarefas\Program.cs\obj\Debug\net8.0\Program.cs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaob\Documents\jv\Gerenciador-tarefas\Program.cs\obj\Debug\net8.0\Program.cs.AssemblyInfoInputs.cache
+C:\Users\joaob\Documents\jv\Gerenciador-tarefas\Program.cs\obj\Debug\net8.0\Program.cs.AssemblyInfo.cs
+C:\Users\joaob\Documents\jv\Gerenciador-tarefas\Program.cs\obj\Debug\net8.0\Program.cs.csproj.CoreCompileInputs.cache
+C:\Users\joaob\Documents\jv\Gerenciador-tarefas\Program.cs\obj\Debug\net8.0\Program.cs.sourcelink.json
+C:\Users\joaob\Documents\jv\Gerenciador-tarefas\Program.cs\obj\Debug\net8.0\Program.cs.dll
+C:\Users\joaob\Documents\jv\Gerenciador-tarefas\Program.cs\obj\Debug\net8.0\refint\Program.cs.dll
+C:\Users\joaob\Documents\jv\Gerenciador-tarefas\Program.cs\obj\Debug\net8.0\Program.cs.pdb
+C:\Users\joaob\Documents\jv\Gerenciador-tarefas\Program.cs\obj\Debug\net8.0\Program.cs.genruntimeconfig.cache
+C:\Users\joaob\Documents\jv\Gerenciador-tarefas\Program.cs\obj\Debug\net8.0\ref\Program.cs.dll

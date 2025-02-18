@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aluno\\Documents\\Joao v\\Gerenciador-tarefas\\Program.cs\\Program.cs.csproj": {}
+    "C:\\Users\\joaob\\Documents\\jv\\Gerenciador-tarefas\\Program.cs\\Program.cs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aluno\\Documents\\Joao v\\Gerenciador-tarefas\\Program.cs\\Program.cs.csproj": {
+    "C:\\Users\\joaob\\Documents\\jv\\Gerenciador-tarefas\\Program.cs\\Program.cs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aluno\\Documents\\Joao v\\Gerenciador-tarefas\\Program.cs\\Program.cs.csproj",
+        "projectUniqueName": "C:\\Users\\joaob\\Documents\\jv\\Gerenciador-tarefas\\Program.cs\\Program.cs.csproj",
         "projectName": "Program.cs",
-        "projectPath": "C:\\Users\\Aluno\\Documents\\Joao v\\Gerenciador-tarefas\\Program.cs\\Program.cs.csproj",
-        "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aluno\\Documents\\Joao v\\Gerenciador-tarefas\\Program.cs\\obj\\",
+        "projectPath": "C:\\Users\\joaob\\Documents\\jv\\Gerenciador-tarefas\\Program.cs\\Program.cs.csproj",
+        "packagesPath": "C:\\Users\\joaob\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joaob\\Documents\\jv\\Gerenciador-tarefas\\Program.cs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Aluno\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\joaob\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -37,7 +37,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -58,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

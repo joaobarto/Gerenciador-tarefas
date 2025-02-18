@@ -71,8 +71,11 @@ internal class Program
                     break;
 
                 case 0:
-                    Console.Clear();
+                    
                     Formatacao.Cor("Saindo....", ConsoleColor.Red);
+                    Thread.Sleep(1500);
+                    Console.Clear();
+                    
                     return;
 
                 default:
